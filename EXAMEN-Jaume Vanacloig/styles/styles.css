@@ -1,0 +1,171 @@
+*{
+    font-family: "Kanit", serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+    
+
+}
+
+.header{
+    
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+
+}
+
+.botones_1{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    font-size: 25px;
+    text-decoration: none;
+    
+
+}
+.container_a{
+
+    
+    text-decoration: none;
+    transition: 1s;
+
+}
+.container_a:hover{
+    color: red;
+
+}
+
+.titulo{
+    width: 100%;
+    height: 877px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:  30px;
+    background-image: url(../FOTOS/background.png);
+    background-size: 100%;
+    color: white;
+    
+
+}
+.h1_ti{
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+
+
+
+#main{
+
+    width: 100%;
+    height: 877px;
+    background-image: url(../FOTOS/background.png);
+    background-size: 100%;
+    color: white;
+       
+}
+.contenido{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter:blur(8px) ;
+}
+.biografia{
+
+    width: 1100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 25px;
+    margin-top: 20px;
+}
+.titulo_bi{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+
+}
+.parrafo{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 18px;
+}
+.columnas{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 30px;
+    
+
+}
+.columna_1{
+    flex-direction: column;
+    display: flex;
+    height: 650px;
+    width: 500px;
+    background-color: white;
+    color: black;
+    gap: 40px;
+    font-size: 25px;
+    border: none;
+    
+
+}
+.pie_cl{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+
+}
+.titulo_s{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    text-align: center;
+
+
+}
+.parrafo_s{
+
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+
+}
+
+@media only screen and (max-width: 800px) {
+    .columnas{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+        margin-top: 30px;
+        
+    
+    }
+
+
+}
